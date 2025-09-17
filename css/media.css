@@ -1,0 +1,49 @@
+@media only screen and (min-width:200px) and (max-width: 575px){    /* this media for mobile phone  */
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: white;
+        padding: 5px 0px;
+        width: 100%;
+        justify-content: center !important;  
+    }
+    .wa-png, .call{
+        padding: 7px 15px; 
+        font-size: 14px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .banner-content p, .banner-content ul li{
+        font-size: 16px;
+    }
+    .banner-contentbtn{
+        /* font-size: 12px; */
+        flex-direction: column;
+    }
+    .banner-contentbtn button{ /* we can use this property if we need like our button in colums if they are not coming in one line side by side */
+          width: 100%;
+    }
+    .banner-form{
+        padding: 20px;
+        /* margin-bottom: 20px; */
+    }
+    .HighlightSection h2{
+        font-size: 28px; 
+    }
+    .carousel-inner img{
+        height: 161px;
+        width: 414px;
+    }
+
+   
+}
+
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
